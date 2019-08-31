@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+}
+
+#titleText {
+  font-family: 'Kalam' , Charcoal, sans-serif;
+  size: 5%;
+  text-align: center;
+}
+
+#navBar {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #dfdfdf;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 772px) {
+  #navBar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #overview, #overview2 {
+    font-size: 30px;
+  }
+}
+
+span, .links, #homeLink {
+  font-family: 'Kalam','Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+.links, #ulIndex li a {
+  color: black;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.links:hover {
+  background-color: #b9b9b9;
+  color: #111111;
+  text-decoration: none;
+}
+
+#homeLink {
+  font-weight: bold;
+}
+
+#closingBar {
+  height: 3%;
+  background-color: #dfdfdf;
+}
+
+#overview, #overview2 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Kalam','Quicksand', sans-serif;
+}
+
+#overview {
+  text-align: left;
+}
+
+#overviewText {
+  padding-left: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Kalam','Quicksand', sans-serif;
+}
+
+#overview2 {
+  text-align: right;
+}
+
+#ulIndex .bullets-left, #ReptiliaUL {
+  list-style-type: square;
+  margin: 0 1em;
+}
+
+#ulIndex {
+  text-align: right;
+}
+
+#ulIndex .bullets-left {
+  direction: rtl;
+  text-align: right;
+}
+
+#ulIndex li a {
+  font-family: 'Kalam','Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+#ReptiliaUL {
+  font-family: 'Kalam','Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+table {
+  margin-left: 100px;
+  background-color: #dfdfdf;
+  font-family: 'Kalam','Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+table th, table td {
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #a8a8a8;
+  font-size: 25px;
+}
+
+.btn-group {
+  float: right;
+}
+/*# sourceMappingURL=home.css.map */

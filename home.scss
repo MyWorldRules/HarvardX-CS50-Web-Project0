@@ -1,0 +1,139 @@
+$bar: #dfdfdf;
+
+html, body{
+    height: 100%;
+  }
+
+
+#titleText{
+   font-family: 'Kalam' , Charcoal, sans-serif;
+   size: 5%;
+   text-align: center;
+
+}
+
+#navBar{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $bar;
+    text-align: center;
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 772px){
+  #navBar{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #overview, #overview2{
+      font-size: 30px;
+  }
+
+}
+
+span, .links, #homeLink{
+  font-family: 'Kalam','Quicksand', sans-serif;
+  font-size: 25px;
+
+}
+
+%linksStuff{
+    color: black;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.links{
+ @extend %linksStuff;
+  
+}
+
+.links:hover{
+  background-color: #b9b9b9;
+  color: #111111;
+  text-decoration: none;
+}
+
+#homeLink{
+  font-weight: bold;
+
+}
+
+#closingBar{
+  height: 3%;
+  background-color: $bar;
+}
+
+%overviewFont{
+    font-weight: bold;
+    font-size: 40px; 
+    font-family: 'Kalam','Quicksand', sans-serif;
+}
+
+#overview{
+    @extend %overviewFont;
+    text-align: left;
+      
+}
+#overviewText{
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20px;   
+    font-family: 'Kalam','Quicksand', sans-serif;
+}
+
+#overview2{
+    @extend %overviewFont;
+    text-align: right;
+}
+
+%fancyLists{
+  list-style-type: square;
+  margin: 0 1em;
+}
+
+#ulIndex{
+  text-align: right;
+  .bullets-left {
+      //Bullets Left code adapted from Paulie_D :)
+      @extend %fancyLists;
+      direction:rtl;        
+      text-align: right;
+    }
+  li{
+      a{
+          @extend %linksStuff;
+          font-family: 'Kalam','Quicksand', sans-serif;
+          font-size: 25px;
+      }
+  }
+}
+
+#ReptiliaUL{
+  @extend %fancyLists;
+  font-family: 'Kalam','Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+table{
+  margin-left: 100px;
+  background-color: $bar;
+  font-family: 'Kalam','Quicksand', sans-serif;
+  font-size: 20px;
+  th,td{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th{
+    background-color: #a8a8a8;
+    font-size: 25px;
+  }
+}
+
+.btn-group{
+  float: right;
+}
