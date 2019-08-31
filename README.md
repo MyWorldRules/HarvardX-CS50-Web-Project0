@@ -11,5 +11,6 @@ https://myworldrules.github.io/HarvardX-CS50-Web-Project0/index.html
 https://youtu.be/_6H_ouFFkxU
 Sorry if the video is a big laggy. 
 
-Linkedin: https://www.linkedin.com/in/tarun-ravi/
+### My Linkedin Page
+https://www.linkedin.com/in/tarun-ravi/
 
